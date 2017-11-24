@@ -8,9 +8,11 @@ As a clean and visually attractive interface, the website not only allows the us
 
 
 ##Functionality
->The website contains several elements which contributes to the overall functionality. These can be broken down into their key parts:
+>The website contains several elements which contributes to the overall functionality. These can be broken down into their key parts 
+
 #Home Page
->The home page offers a navigation menu to allow easy access to all parts of the website. It showcases some stunning photos of their past live performances at various events where they have performed
+>The home page offers a navigation menu to allow easy access to all parts of the website. It showcases some stunning photos of their past live performances at various events where they have performed.
+
 #About Us
 >This page contains the information about the band, including images of individual members. This page uses rows and columns to display all the information.
 There is a button called Book with us that the user can click to book an event.
