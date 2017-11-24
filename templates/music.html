@@ -1,0 +1,90 @@
+
+ <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row"> <h1 class="arrow section-heading text-center portfolio_style">Fancy listening to some our music</h1>
+                <div class="col-lg-12 text-center">
+                    
+                    <h3 class="section-subheading text-muted">{{titleMusic}}</h3>
+                </div>
+            </div>
+
+
+            <div class="row">
+            <div ng-controller="MusicController">
+  <div ng-repeat="media in product.media">
+    <div class="thumbnail">
+      <div class="video-container">
+        <iframe width="100%" ng-src="{{getIframeSrc(media.src)}}" frameborder="0 " allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+   
+
+
+ <div class="row rowGap">
+ <div class="col-md-4 col-sm-6 audioSection"><!--1st column -->
+ <div class="musicCover">
+    <img src="images/lifehouse.jpg" width="300px;" height="300px;" alt=""> 
+ </div>
+ <div class="audioCaption">
+        <h4>Lifehouse - You And Me &nbsp</h4>
+        <audio auto controls loop preload="metadata">
+            <!-- If the browser can't play MP3 try OGG then WAV -->
+          <source src="images/audio/Lifehouse - You And Me.mp3#t=45,55"/> 
+          <source src="images/audio/radiohead.ogg#t=45,55"/>
+          
+            
+        </audio>
+  </div>
+  </div><!--end 1st column -->
+
+ <div class="col-md-4 col-sm-6 audioSection">
+ <div class="musicCover">
+    <img src="images/beatles.jpg" width="300px;" height="300px;" alt=""> 
+ </div>
+ <div class="audioCaption">
+        <h4>Daydream Believer &nbsp</h4>
+        <audio auto controls loop preload="metadata">
+            
+            <source src="images/audio/The Monkees - Daydream Believer (Official Music Video).mp3#t=45,55"/> 
+            <!-- If the browser can't play MP3 try OGG then WAV -->
+            <source src="images/audio/radiohead.ogg#t=45,55"/>
+            
+        </audio>
+  </div>
+  </div><!--end 2nd column -->
+
+
+  <div class="col-md-4 col-sm-6 audioSection">
+  <div class="musicCover">
+    <img src="images/theScript1.jpg" width="300px;" height="300px;" alt=""> 
+  </div>
+  <div class="audioCaption">
+        <h4>The Script - Rain  &nbsp</h4>
+        <audio auto controls loop preload="metadata">
+            
+            <source src="images/audio/The Script - Rain (Official Video).mp3#t=45,55"/> 
+            <!-- If the browser can't play MP3 try OGG then WAV -->
+            <source src="images/audio/radiohead.ogg#t=45,55"/>
+             
+        </audio>
+  </div>
+  </div>
+
+  </div><!--end audio row-->
+
+
+
+
+  </div>
+
+              
+              
+
+
+                  
+
+       
+    </section>

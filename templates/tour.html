@@ -1,0 +1,42 @@
+<section style="background-color: gray">
+<div class="tourContainer bg-light-gray">
+<h1>Here's our tour for 2017 - Come and see us live</h1>
+     <table class="table">
+      <thead>
+        <tr style="background-color: #000">
+          <td style="font-size: 14px">Date</td>
+          <td style="font-size: 14px">City</td>
+         
+          
+        </tr>
+        </thead>
+      
+      <tbody>
+        <tr ng-repeat="tourCalender in bandTour track by $index">
+          <td>{{ tourCalender.date }}</td>
+          <td>{{ tourCalender.city }}</td>
+          
+          
+        </tr>
+   
+
+
+      </tbody>
+    </table>
+
+ 
+    <div class="row">
+<button class="button" ng-click="myFunc()"><span>Book now</span></button>
+
+<div ng-show="bookInfo">
+    <h1>Menu:</h1>
+    <div>Pizza</div>
+    <div>Pasta</div>
+    <div>Pesce</div>
+</div>
+
+
+
+</div>
+</div>
+</section>

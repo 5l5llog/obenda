@@ -1,0 +1,89 @@
+  /* Media Queries */
+  /*iPhone 5 and 5s*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { /* */}
+
+ /*iPhone 5 and 5 s : Potrait*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+  ul.legals { list-style: none; color: #fff; line-height: 15px;
+    
+  }
+ul.legals li { display: inline-block; }
+ul.legals li::after { content: " |"; }
+ul.legals li:last-child::after { content: ""; }
+.legals { text-align: left; padding-top: 5px;}
+.credit { text-align: right; padding-top: 5px;}
+
+ul.social-network { list-style: none; margin: 0; padding: 0; }
+ul.social-network li { display: block; margin-left: 5px; text-align: left;}
+ul.social-network li:last-child { margin-right: 0; }
+}
+
+
+ /*iPhone 5 and 5 s : Landscape*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { /*  */ }
+
+@media screen and (max-width: 767px) {
+   ul.legals { list-style: none; color: #fff; line-height: 15px;
+    
+  }
+ul.legals li { display: inline-block; }
+ul.legals li::after { content: " |"; }
+ul.legals li:last-child::after { content: ""; }
+.legals { text-align: left; padding-top: 5px;margin-left: 5px;}
+.credit { text-align: right; padding-top: 5px;margin-left: 5px;}
+
+ul.social-network { list-style: none; margin: 0; padding: 0; }
+ul.social-network li { display: inline-block; margin-left: 5px; text-align: left;}
+ul.social-network li:last-child { margin-right: 0; }
+}
+
+ .navbar-transparent {
+        /**/
+        background-color: rgb(4, 4, 35, 0.7) !important;
+        color: #000;
+        
+    }
+    
+    .icon-bar{
+      background-color: #2a2a49 !important;
+    }
+    
+    .btnIcon-bar{
+      background-color: #07073a;
+   
+    }
+    
+    .navbar-header{
+      background-color: #040423 !important;
+    }
+
+
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+    h1{
+      font-size: 2em;
+      text-align: center;
+    }
+    h2{
+      font-size: 1.5rem;
+      text-align: center;
+    }
+     h3{
+      font-size: 1rem;
+      text-align: center;
+      font-weight: bold;
+    }
+    p{
+      font-size: 1rem;
+    }
+}
