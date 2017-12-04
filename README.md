@@ -53,7 +53,8 @@ Below are the results:
 
 Video playing on About page
 
-![Screenshot of Youtube video playing after the play button clicked](https://github.com/5l5llog/obenda/blob/master/screenshot/video2.jpg "Embedded Youtube video")
+![Screenshot of Youtube video playing](https://github.com/5l5llog/obenda/blob/master/screenshot/video2.png "Embedded Youtube video")
+
 
 Button on About page
 
