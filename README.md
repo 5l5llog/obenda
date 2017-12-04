@@ -51,12 +51,61 @@ Social Media:
 
 Below are the results:
 
+Video playing on About page
+
+![Screenshot of Youtube video playing after the play button clicked](https://github.com/5l5llog/obenda/blob/master/screenshot/video2.jpg "Embedded Youtube video")
+
+Button on About page
+
 ![Screenshot for book with us button](https://github.com/5l5llog/obenda/blob/master/screenshot/bookus.jpg  "Book with Us")
 
 
+Button on Tour page
+
+![Screenshot for buy a ticket button](https://github.com/5l5llog/obenda/blob/master/screenshot/buyticket.jpg "Buy Ticket")
 
 
+Button on Newsletter page
 
+Subscribe form Error
+![Screenshot for subscribe button](https://github.com/5l5llog/obenda/blob/master/screenshot/subscribeError.jpg "Subscribe form")
+
+
+Subscribe form valid entry
+
+![Screenshot for subscribe button](https://github.com/5l5llog/obenda/blob/master/screenshot/subcribe.jpg "Subscribe form")
+
+
+Contact form validating error
+
+![Screenshot for contact form error](https://github.com/5l5llog/obenda/blob/master/screenshot/formError.jpg "contact form error detected")
+
+
+Contact form with valid entry
+
+![Screenshot with valid entry](https://github.com/5l5llog/obenda/blob/master/screenshot/formSuccess.jpg "contact form valid")
+
+
+Media icon result: 
+
+Facebook
+
+![Screenshot for Facebook Page](https://github.com/5l5llog/obenda/blob/master/screenshot/facebook.jpg "Facebook landing page")
+
+
+YouTube
+
+![Screenshot for YouTube Page](https://github.com/5l5llog/obenda/blob/master/screenshot/youTube.jpg "YouTube landing page")
+
+
+Twitter
+
+![Screenshot for Twitter Page](https://github.com/5l5llog/obenda/blob/master/screenshot/twitter.jpg "Twitter landing page")
+
+
+LinkedIn
+
+![Screenshot for LinkedIn Page](https://github.com/5l5llog/obenda/blob/master/screenshot/linkedIn.jpg "LinkedIn landing page")
 
 
 Once this phase of the testing was completed, it was deployed to GoDaddy and tested by several friends independently. This allowed them to verify that it worked across a range of platforms, both mobile and desktop based.
