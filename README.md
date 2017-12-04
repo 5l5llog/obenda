@@ -45,9 +45,23 @@ Social Media:
 # Deployment and testing
 
 > The website was deployed firstly to GitHub. It was then hosted by GoDaddy under the domain [obenda.com]( www.obenda.com)
-> The website was continually tested and evaluated as it was constructed. This involved running the code on a local machine and testing each link, button and presentational aspect. Once this phase of the testing was completed, it was deployed to GoDaddy and tested by several friends independently. This allowed them to verify that it worked across a range of platforms, both mobile and desktop based.
+> The website was continually tested and evaluated as it was constructed. This involved running the code on a local machine and testing each link, button and presentational aspect.
+
+## Button and Form tested
+
+Below are the results:
+
+![Screenshot for book with us button](bookus.jpg)
+
+
+
+
+
+
+
+Once this phase of the testing was completed, it was deployed to GoDaddy and tested by several friends independently. This allowed them to verify that it worked across a range of platforms, both mobile and desktop based.
 
 
 # Contributing
-[Animation displayed on the main page](https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/)
+[Animation displayed on the main page](https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/) was based on some of the code from tympanus website.
 
