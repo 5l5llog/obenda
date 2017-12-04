@@ -65,7 +65,7 @@ angular.module('RouteControllers', [])
 
       
       if ($scope.userForm.$valid) {
-        alert('Thank you, your form has been submitted successfully.');
+        alert('Thank you, we will get in touch soon.');
       }
       
 

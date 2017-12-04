@@ -2,139 +2,69 @@
 <html ng-app="myBand">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Obenda Band</title>
-
-    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
-    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
-    <script type="text/javascript" src="bower_components/a0-angular-storage/dist/angular-storage.min.js"></script>
-    <!--script src="/bower_components/angular-animate/angular-animate.js"></script-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/style2.css" />
-     <link rel="stylesheet" type="text/css" href="css/mediaQuery.css" />
-     
-     <script type="text/javascript">
-     	$(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') ) {
-        $(this).collapse('hide');
-    }
-});
-     </script>
-
-
-<style type="text/css">
-html, body {
-  width : 100%;
-  height: 100%;
-}
-
-body {
-  padding-top: 70px;
-    overflow-x: hidden;
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: #111111;
-}
-#logoBand{
-  
-  
-  font-size: 1.5em;
-  font-weight: bold;
-  /*padding-top: 25px;*/
-  
-}
-
-h1{
-      font-size: 2em;
-      text-align: center;
-    }
-    h2{
-      font-size: 1.75rem;
-      text-align: center;
-    }
-     h3{
-      font-size: 1.5rem;
-      text-align: center;
-      font-weight: bold;
-    }
-    p{
-      font-size: 1.5rem;
-    }
-    .navbar-nav {font-size: 1em; font-family: 'Josefin Sans', sans-serif; font-weight: bold;}
-    label{
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 1.5rem;
-    }
-
-</style>
-
-   </head>
+<title>Obenda Music Band</title>
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+<!--script type="text/javascript" src="bower_components/a0-angular-storage/dist/angular-storage.min.js"></script-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--link rel="stylesheet" type="text/css" href="css/demo.css" /-->
+<link rel="stylesheet" type="text/css" href="css/style2.css" />
+<link rel="stylesheet" type="text/css" href="css/mediaQuery.css" />
+<script type="text/javascript" src="js/clpM.js"></script>
+</head>
 <body>
    <nav class="navbar navbar-inverse navbar-fixed-top navbar-transparent">
     <div class="container">
-      <div class="navbar-header"> 
-        <button type="button" class="navbar-toggle collapsed btnIcon-bar" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-         <span class="sr-only">Toggle navigation</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-        </button>
-            <a class="navbar-brand" id="logoBand" href="#/">Obenda</a>
-      </div>
-
-      <div id="navbar" class="collapse navbar-collapse"><!-- nav-collapse -->
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#/about"><span class="fa fa-shield" aria-hidden="true"></span>About</a></li>
-              <li><a href="#/music"><span class="fa fa-globe" aria-hidden="true"></span>Music</a></li>
-              <li><a href="#/tour"><span class="fa fa-rocket" aria-hidden="true"></span>Tour</a></li>
-              <li><a href="#/contact"><span class="fa fa-comment" aria-hidden="true"></span>Contact</a></li>
-              <li><a href="#/newsletter"><span class="fa fa-share-alt" aria-hidden="true"></span>Newsletter</a></li>
-            </ul>
-      </div><!--/.nav-collapse-->
-      </div>
+    <div class="navbar-header"> 
+    <button type="button" class="navbar-toggle collapsed btnIcon-bar" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    	<a class="navbar-brand" id="logoBand" href="#/">Obenda</a>
     </div>
-    </nav>
-    
-    <ng-view>
 
+    <div id="navbar" class="collapse navbar-collapse"><!-- nav-collapse in mobile devices-->
+    <ul class="nav navbar-nav navbar-right">
+    	<li><a href="#/about"><span class="fa fa-shield" aria-hidden="true"></span>About</a></li>
+        <li><a href="#/music"><span class="fa fa-globe" aria-hidden="true"></span>Music</a></li>
+        <li><a href="#/tour"><span class="fa fa-rocket" aria-hidden="true"></span>Tour</a></li>
+        <li><a href="#/contact"><span class="fa fa-comment" aria-hidden="true"></span>Contact</a></li>
+        <li><a href="#/newsletter"><span class="fa fa-share-alt" aria-hidden="true"></span>Newsletter</a></li>
+    </ul>
+    </div><!--/.nav-collapse-->
+    </div>
+   </nav>
     
-        
-    </ng-view>
-     
-    <script src="js/app.js"></script>
-    <script src="js/controller.js"></script>
+   <ng-view> </ng-view>
    
-    
-
-   
- <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <ul class="legals">
-                  <li><a href="#">&copy; 2017 NamCanyon</a></li>
-                  <li><a href="#">All rights reserved</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 credit">
-                
-                <ul class=" social-network social-circle ">
-                  		
-                        <li><a href="#" class="icoFacebook ahref" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="icoTwitter ahref" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#" class="icoyouTube ahref" title="youTube"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#" class="icoLinkedin ahref" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-              </div>
-            
-          </div>
-        </footer>
-
-
+<footer>
+	<div class="container">
+    <div class="row">
+    <div class="col-md-6">
+    <ul class="legals">
+    	<li><a href="#">&copy; 2017 NamCanyon</a></li>
+        <li><a href="#">All rights reserved</a></li>
+    </ul>
+    </div>
+    <div class="col-md-6 credit">
+    <ul class=" social-network social-circle ">
+        <li><a href="https://www.facebook.com/obenda.band/" target="_blank" class="icoFacebook ahref" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/obenda_music" target="_blank" class="icoTwitter ahref" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCU8H-TF2JI1kSAiuO-AH9Qg?view_as=subscriber" target="_blank" class="icoyouTube ahref" title="youTube"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/obenda-music-8b08b7153/" target="_blank" class="icoLinkedin ahref" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+</footer>
+<script src="js/app.js"></script>
+<script src="js/controller.js"></script>
 </body>
 </html>

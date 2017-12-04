@@ -1,42 +1,23 @@
-<section style="background-color: gray">
+<section class="bg-light-gray">
 <div class="tourContainer bg-light-gray">
-<h1>Here's our tour for 2017 - Come and see us live</h1>
-     <table class="table">
-      <thead>
-        <tr style="background-color: #000">
-          <td style="font-size: 14px">Date</td>
-          <td style="font-size: 14px">City</td>
-         
-          
-        </tr>
-        </thead>
-      
-      <tbody>
-        <tr ng-repeat="tourCalender in bandTour track by $index">
-          <td>{{ tourCalender.date }}</td>
-          <td>{{ tourCalender.city }}</td>
-          
-          
-        </tr>
-   
-
-
-      </tbody>
-    </table>
-
- 
-    <div class="row">
-<button class="button" ng-click="myFunc()"><span>Book now</span></button>
-
-<div ng-show="bookInfo">
-    <h1>Menu:</h1>
-    <div>Pizza</div>
-    <div>Pasta</div>
-    <div>Pesce</div>
-</div>
-
-
-
+<h2  style="font-size: 1.75rem;" class="text-muted">Here's our tour for 2017 - come and see us live</h2>
+<table class="table">
+  <thead>
+  <tr>
+    <td>Date</td>
+    <td>City</td>
+  </tr>
+  </thead>
+  
+  <tbody>
+  <tr ng-repeat="tourCalender in bandTour track by $index">
+    <td>{{ tourCalender.date }}</td>
+    <td>{{ tourCalender.city }}</td>
+  </tr>
+  </tbody>
+</table>
+<div class="row">
+  <button class="button" onclick="alertTour()"><span>Buy Ticket</span></button>
 </div>
 </div>
 </section>

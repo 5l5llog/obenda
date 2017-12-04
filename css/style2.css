@@ -1,3 +1,23 @@
+/*Credit to this Author: https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/ ****/
+/*Style responsible for the Home page animation*/
+fieldset,img { 
+	border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+
+
 .cb-slideshow,
 .cb-slideshow:after {
     position: fixed;

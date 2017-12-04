@@ -9,9 +9,7 @@ and (max-device-width : 568px) { /* */}
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : landscape) { 
-  ul.legals { list-style: none; color: #fff; line-height: 15px;
-    
-  }
+ul.legals { list-style: none; color: #fff; line-height: 15px; }
 ul.legals li { display: inline-block; }
 ul.legals li::after { content: " |"; }
 ul.legals li:last-child::after { content: ""; }
@@ -24,66 +22,70 @@ ul.social-network li:last-child { margin-right: 0; }
 }
 
 
- /*iPhone 5 and 5 s : Landscape*/
+ /*This is iPhone 5 and 5 s : Landscape. this style will be used in future*/
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
-and (orientation : portrait) { /*  */ }
+and (orientation : portrait) { /* */ }
+/*,/end -iPhone 5 and 5 s : Landscape.*/
 
-@media screen and (max-width: 767px) {
-   ul.legals { list-style: none; color: #fff; line-height: 15px;
-    
-  }
+
+
+ /*========= For screen equal to 768 pixel or less=========*/
+@media only screen and (max-width: 768px){
+
+/************ Music page style ***********/
+.audioCaption{
+  padding-top: 20px; width: 100%; max-width: 400px; background-color:#030315; text-align: center; padding-bottom: 20px; -webkit-box-shadow: 7px 7px 3px 0px rgba(4, 4, 35, 0.43);
+  -moz-box-shadow: 7px 7px 3px 0px rgba(4, 4, 35, 0.43); box-shadow: 7px 7px 3px 0px rgba(4, 4, 35, 0.43); border-radius: 10px;
+}
+.audioCaption audio{max-width: 80%; line-height: 25px; border-radius: 10px;}
+
+/************ ./END Music page style ***********/
+
+/*footer style */
+
+ul.legals { list-style: none; color: #fff; line-height: 15px;}
 ul.legals li { display: inline-block; }
 ul.legals li::after { content: " |"; }
 ul.legals li:last-child::after { content: ""; }
 .legals { text-align: left; padding-top: 5px;margin-left: 5px;}
 .credit { text-align: right; padding-top: 5px;margin-left: 5px;}
-
 ul.social-network { list-style: none; margin: 0; padding: 0; }
 ul.social-network li { display: inline-block; margin-left: 5px; text-align: left;}
 ul.social-network li:last-child { margin-right: 0; }
-}
+/* ./END footer style*/
 
- .navbar-transparent {
-        /**/
-        background-color: rgb(4, 4, 35, 0.7) !important;
-        color: #000;
-        
-    }
+/* navigation menu style*/
+.navbar-transparent {
+background-color: rgba(4, 4, 35, 0.7) !important; color: #000;    }
     
-    .icon-bar{
-      background-color: #2a2a49 !important;
-    }
+.icon-bar{ background-color: #2a2a49 !important;}
     
-    .btnIcon-bar{
-      background-color: #07073a;
-   
-    }
-    
-    .navbar-header{
-      background-color: #040423 !important;
-    }
+.btnIcon-bar{background-color: #07073a;}
+
+.navbar-header{background-color: #040423 !important;}
+/* .END navigation menu style*/
+
+/* About page - band team style*/
+
+#portfolio .portfolio-item { margin: 0 0 30px;}
+/* ./END About page style*/
+
+h1{font-size: 2em; text-align: center;}
+h2{font-size: 1.5rem; text-align: center;}
+h3{font-size: 1rem; text-align: center; font-weight: bold;}
+p{font-size: 1rem;}
+
+/*newsletter form style*/
+.subscribe h2 { color: #fff; margin-bottom: 40px; font-weight: bold; letter-spacing: 1.5px;}
+.subscribe input[type=text] { background-color: rgb(173, 165, 175); border: solid 1px #817c82; padding: 20px; width: 50%; color: #001011; }
+.subscribe input[type=submit] { background: rgb(7, 33, 80); border: solid 1px rgb(7, 33, 80); padding: 20px; font-weight: bold; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+.subscribe input[type=submit]:hover { background: rgb(6, 47, 214); border: solid 1px rgb(6, 47, 214); color: #000; 
+  }/*./ENDnewsletter form style*/
+
+}/*========= ./END -Style the screen equal to 768 pixel or less=========*/
 
 
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-    h1{
-      font-size: 2em;
-      text-align: center;
-    }
-    h2{
-      font-size: 1.5rem;
-      text-align: center;
-    }
-     h3{
-      font-size: 1rem;
-      text-align: center;
-      font-weight: bold;
-    }
-    p{
-      font-size: 1rem;
-    }
-}
+ 

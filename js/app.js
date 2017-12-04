@@ -4,7 +4,7 @@ angular.module("myBand", ["ngRoute","RouteControllers"])
   
   $locationProvider.hashPrefix('');
 
-    $routeProvider.when("/", {
+    $routeProvider.when("/", {  //refer to the animation on the landing page "/"
         template: "<div main-slide-show></div>"
 
     })
@@ -27,7 +27,7 @@ angular.module("myBand", ["ngRoute","RouteControllers"])
     })
     })
         .directive("mainSlideShow",function(){
-  return{
+  return{ //display animation in the order as shown in style2.css file
     template:`<ul class='cb-slideshow'>
             <li><span>Image 01</span></li>
             <li><span>Image 02</span></li>
