@@ -112,6 +112,22 @@ LinkedIn
 Once this phase of the testing was completed, it was deployed to GoDaddy and tested by several friends independently. This allowed them to verify that it worked across a range of platforms, both mobile and desktop based.
 
 
+## Results on how the website rendered on different devices
+
+Iphone 5s and similar screen:
+
+![Screenshot showing the landing page](https://github.com/5l5llog/obenda/blob/master/iphone5s/IMG_3035.PNG  "Home Page")
+
+
+Iphone 5s - About page
+
+![Screenshot showing the about page](https://github.com/5l5llog/obenda/blob/master/iphone5s/IMG_3036.PNG  "About Page")
+
+
+
+
+
+
 # Contributing
 [Animation displayed on the main page](https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/) was based on some of the code from tympanus website.
 
